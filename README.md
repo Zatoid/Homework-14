@@ -72,6 +72,7 @@ Answer the following questions about sessions and cookies:
     GET /cart HTTP/1.1
     Host: www.example.org
     Cookie: cart=Bob
+    'Connection: keep-alive'
     ```
 
 #### Example HTTP Requests and Responses
