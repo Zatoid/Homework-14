@@ -51,7 +51,7 @@ Answer the following questions about `curl`:
 13. Which `curl` option is used to view the response header?
     - -l
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
-
+    - OPTIONS
 #### Sessions and Cookies
 
 Recall that HTTP servers need to be able to recognize clients from one another. They do this through sessions and cookies.
