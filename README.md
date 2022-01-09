@@ -20,31 +20,34 @@ Answer the following questions about the HTTP request and response process.
 1. What type of architecture does the HTTP request and response process occur in?
     - Client-server based architecture
 2. What are the different parts of an HTTP request? 
-
+    - Request line, headers, and body
 3. Which part of an HTTP request is optional?
-
+    - The body is optional
 4. What are the three parts of an HTTP response?
-
+    - Status line, headers, and body
 5. Which number class of status codes represents errors?
-
+    - 400
 6. What are the two most common request methods that a security professional will encounter?
-
+    - GET and POST are the most common
 7. Which type of HTTP request method is used for sending data?
-
+    - POST
 8. Which part of an HTTP request contains the data being sent to the server?
-
+    - Request Body
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
-
+    - Response Body
 #### Using curl
 
 Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
-
+    - Can support multiple protocols without the use of a user interface
+    - You can make adjustments as you work
+    - Automated HTTP request testing
+    - You can manage HTTP requests and responses in a repeatable way
 11. Which `curl` option is used to change the request method?
-
+    - -X
 12. Which `curl` option is used to set request headers?
-
+    - -H
 13. Which `curl` option is used to view the response header?
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
