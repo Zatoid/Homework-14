@@ -63,7 +63,7 @@ Answer the following questions about sessions and cookies:
     ```HTTP
     HTTP/1.1 200 OK
     Content-type: text/html
-    Set-Cookie: cart=Bob
+    ==Set-Cookie: cart=Bob==
     ```
 
 16. Which request header will continue the client's session?
