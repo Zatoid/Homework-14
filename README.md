@@ -61,7 +61,7 @@ Answer the following questions about sessions and cookies:
 15. Which response header sends a cookie to the client?
 
     ```HTTP
-    ==HTTP/1.1 200 OK==
+    HTTP/1.1 200 OK
     Content-type: text/html
     ==Set-Cookie: cart=Bob==
     ```
