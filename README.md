@@ -95,13 +95,13 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
-
+    - POST
 18. Which header expresses the client's preference for an encrypted response?
-
+    - Upgrade-Insecure-Requests: 1
 19. Does the request have a user session associated with it?
-
+    - Not yet
 20. What kind of data is being sent from this request body?
-
+    - Login credentials
 **HTTP Response**
 
 ```HTTP
@@ -122,41 +122,41 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
-
+    - 200 OK
 22. What web server is handling this HTTP response?
-
+    - Apache
 23. Does this response have a user session associated to it?
-
+    - Yes SessionID=5
 24. What kind of content is likely to be in the [page content] response body?
-
+    - Page configurations
 25. If your class covered security headers, what security request headers have been included?
-
+    - Strict-Transport-Security: max-age=31536000; includeSubDomains
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
-
+    - Services
 27. What is a service that writes to a database and communicates to other services?
-
+    - APIs
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
-
+    - Load balancers
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
-
+    - Docker
 30. What kind of file format is required for us to deploy a container set?
-
+    - .yml files are required
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
-
+    - SELECT * FROM customers;
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
-
+    - INSERT INTO
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
-
+    - The entire table would be deleted since it is the only value given
 ---
 
 ### Bonus Challenge Overview: The Cookie Jar
