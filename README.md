@@ -58,7 +58,7 @@ Recall that HTTP servers need to be able to recognize clients from one another. 
 
 Answer the following questions about sessions and cookies:
 
-15. Which response header sends a cookie to the client?
+15. Which response header sends a cookie to the client? Set-Cookie: cart=Bob
 
     ```HTTP
     HTTP/1.1 200 OK
@@ -66,7 +66,7 @@ Answer the following questions about sessions and cookies:
     ==Set-Cookie: cart=Bob==
     ```
 
-16. Which request header will continue the client's session?
+16. Which request header will continue the client's session? 'Connection: keep-alive'
 
     ```HTTP
     GET /cart HTTP/1.1
